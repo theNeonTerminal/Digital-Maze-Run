@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) ([open the project](https://halflife.hackclub.com/projects/ikykady6lp0ud9po4tqsipj2)). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A simply maze game that you tilt to play on the screen
+> A simply maze game that you tilt to play on the screen. A preloaded image is displayed along with a ball you can move by rotating the display
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-27: Managed to get all individual components working in a way so that I can properly use the sensor readings and display stuff](#2026-10-27-managed-to-get-all-individual-components-working-)
-2. [2026-10-28: Spend a lot (a lot) of time trying to figure out a good maze generating algorithm, unfortunately, was unsuccessful, an algorithm was either too was to implement or too resource intensive, so I will no](#2026-10-28-spend-a-lot-a-lot-of-time-trying-to-figure-out-a-)
+2. [2026-10-28: Spend a lot (a lot) of time trying to figure out a good maze generating algorithm, unfortunately, was unsuccessful, an algorithm was either too hard was to implement or too resource intensive and slow](#2026-10-28-spend-a-lot-a-lot-of-time-trying-to-figure-out-a-)
 3. [2026-10-29: Got the image of the maze up and running on the display, got collisions fully working on the walls of the maze (based on color of the wall, in this case: blue). Now I will implement the gyroscope MPU6](#2026-10-29-got-the-image-of-the-maze-up-and-running-on-the-d)
 4. [2026-10-29: ![maze-main](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/02fe52c41fc551d0d7c77b0228c905c23f9e07d630ec941baedcfa2819efef05.png)](#2026-10-29-maze-mainhttpshalflifehackclub-assetscomsessionss)
 
@@ -39,12 +39,12 @@ Not much to show so only code images
 
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/9e5216baf3a73adbd449d0ea406f753222f37a5f461efefe66fb750243deb604.png)
 
-### 2026-10-28: Spend a lot (a lot) of time trying to figure out a good maze generating algorithm, unfortunately, was unsuccessful, an algorithm was either too was to implement or too resource intensive, so I will no
+### 2026-10-28: Spend a lot (a lot) of time trying to figure out a good maze generating algorithm, unfortunately, was unsuccessful, an algorithm was either too hard was to implement or too resource intensive and slow
 
 **5h**
 
-Spend a lot (a lot) of time trying to figure out a good maze generating algorithm, unfortunately, was unsuccessful, an algorithm was either too was to implement or too resource intensive, so I will now pre generate 1 or 2 mazes and simply display that as an image with collisions and gyro movement
-Did end up learning a lot about mazes, so I take that as a win
+Spend a lot (a lot) of time trying to figure out a good maze generating algorithm, unfortunately, was unsuccessful, an algorithm was either too hard was to implement or too resource intensive and slow, so I will now pre generate 1 or 2 mazes and simply display that as an image with collisions and gyro movement
+Did end up learning a lot about generating mazes, so I take that as a win
 
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/83a132bb51f36c0892c75fc82eff4d06c4462eb60ba13f1ea51efb5ce5e5ab97.png)
 
