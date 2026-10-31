@@ -14,20 +14,21 @@
 
 ## Contents
 
-1. [2026-10-27: Managed to get all individual components working in a way so that I can properly use the sensor readings and display stuff](#2026-10-27-managed-to-get-all-individual-components-working-)
+1. [2026-10-27: Managed to get all individual components working in a way so that I can properly use the sensor readings and display stuff - stuff like proper wiring, resolved power issues (improper grounding and VCC](#2026-10-27-managed-to-get-all-individual-components-working-)
 2. [2026-10-28: Spend a lot (a lot) of time trying to figure out a good maze generating algorithm, unfortunately, was unsuccessful, an algorithm was either too hard was to implement or too resource intensive and slow](#2026-10-28-spend-a-lot-a-lot-of-time-trying-to-figure-out-a-)
 3. [2026-10-29: Got the image of the maze up and running on the display, got collisions fully working on the walls of the maze (based on color of the wall, in this case: blue). Now I will implement the gyroscope MPU6](#2026-10-29-got-the-image-of-the-maze-up-and-running-on-the-d)
 4. [2026-10-29: ![maze-main](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/02fe52c41fc551d0d7c77b0228c905c23f9e07d630ec941baedcfa2819efef05.png)](#2026-10-29-maze-mainhttpshalflifehackclub-assetscomsessionss)
 
 ## Design
 
-### 2026-10-27: Managed to get all individual components working in a way so that I can properly use the sensor readings and display stuff
+### 2026-10-27: Managed to get all individual components working in a way so that I can properly use the sensor readings and display stuff - stuff like proper wiring, resolved power issues (improper grounding and VCC
 
 **4h**
 
-Managed to get all individual components working in a way so that I can properly use the sensor readings and display stuff
-MPU 6050: learned how to process stuff
-ILI9341: how to draw on screen and little with touch
+Managed to get all individual components working in a way so that I can properly use the sensor readings and display stuff - stuff like proper wiring, resolved power issues (improper grounding and VCC), code issues (aka, successfully running example codes and effectively reading values so that I can properly process them)
+
+MPU 6050: learned how to process stuff and what gyro modes i need for this project
+ILI9341: how to draw on screen and little with touch - both works (for now)
 
 Not much to show so only code images
 
