@@ -78,5 +78,5 @@ Got the image of the maze up and running on the display, got collisions fully wo
 
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/00ec4b2ea9724e302c5a52c929a06ceb3410826e45ceba217422d48611e8fbe3.png)
 
-I got the maze image running on the TFT display, the main player ball and made collisions work with the walls based on color ( in this case, it simply detects if the ball touches the blue color or not and then decides wheather it can pass (white area) or not(blue walls))
+Previous one had some sever bugs, where the ball could phase through the walls, under a few conditions (one of them including when the ball touches a wall corner at exactly 45deg, could phase through) so I fixed all of the issues I managed to find, willing to fix issues other users who use my project find
 Now I will complete the logic for the MPU 6050 gyro, kicad schematic and README and call this project a day
