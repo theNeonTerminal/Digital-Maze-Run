@@ -46,6 +46,7 @@ Not much to show so only code images
 
 Spend a lot (a lot) of time trying to figure out a good maze generating algorithm, unfortunately, was unsuccessful, an algorithm was either too hard was to implement or too resource intensive and slow, so I will now pre generate 1 or 2 mazes and simply display that as an image with collisions and gyro movement
 Did end up learning a lot about generating mazes, so I take that as a win
+NOTE FOR Reviewer: You can include/exclude this 5hrs, but I did learn something new, since this did not actually contribute to the final project, this is your choice. A good middle ground **could potentially** be counting a little less than 5 like say 3
 
 ![image](https://halflife.hackclub-assets.com/sessions/Sg2YTK32CyhyRAQxm5AUnJ98fO1aU3hg/83a132bb51f36c0892c75fc82eff4d06c4462eb60ba13f1ea51efb5ce5e5ab97.png)
 
