@@ -29,6 +29,8 @@ A small maze game where you tilt the entire device to play the game. The reading
 
 ![Circuit schematic](./schematic.png)
 
+> [!NOTE] This will be hand soldered on a perfboard, NO Professional PCB will be used.
+
 </div>
 
 ---
